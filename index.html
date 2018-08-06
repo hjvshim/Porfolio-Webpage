@@ -15,6 +15,7 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -119,7 +120,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/game.png" alt="">
+              <img class="img-fluid" src="img/portfolio/thesis_thumb_500.png" alt="">
             </a>
           </div>
           <!-- <div class="col-md-6 col-lg-4">
@@ -141,8 +142,8 @@
               </div>
               <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
             </a>
-          </div>
-        </div> -->
+          </div> -->
+        </div>
       </div>
     </section>
 
@@ -152,41 +153,32 @@
         <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="star-light mb-5">
         <div class="row">
-          <div class="col-md-6 offset-md-3 mt-0 mb-1 text-center">
+          <div class="col-md-10 offset-md-1 mt-0 mb-1 text-center">
             <p class="content">
-                    <p class="lead" style="font-family: 맑은 고딕;">1991년 12월 22일 출생<br><br>
-                    </p>
-                    <h3>학력</h3>
-                    <p class="content">
-                    한남대학교 정보통신공학과 졸업 (2010.02-2016.02)<br>
-                    연세대학교 일반대학원 컴퓨터과학과 슈퍼컴퓨팅 연구실 졸업<br>(2016.02-2018.02)<br>
-                    </p>
-                    <br>
-                    <h3>석사 학위 졸업 논문</h3>
-                    <p class="content">
-                      [ 논문 제목 ]<br>Obstacle Avoidance using Density and Distance Aware Compressed Grid Map through Deep Q-Network
-                      <br><br>
-                      [ 논문 요약 ]<br>
-                       인공지능 기반의 장애물 회피에 관한 연구에서 주로 사용되는 강화학습 모델인 Deep-Q-Network(DQN)는 실시간으로 에이전트가 보는 Scene을 처리하기 때문에 학습 시간이 매우 길어진다는 문제가 있습니다. 이 점에 착안하여 본 논문에서는 Input으로 이용되는 이미지를 sub grid로 나누어 더 작은 이미지로 압축시켜 학습 시간을 줄이면서 정확도를 유지하는 Obstacle Density-aware Compressed Grid Map을 제안합니다.<br>
-                       이는 처음 DQN에서 받는 에이전트가 바라보는 뷰의 이미지들을 그레이스케일로 변환하여 일정 크기로 그리드화하여 장애물을 식별해 맵으로 변환시킵니다. 이 때, 에이전트의 위치에서부터 장애물까지의 거리차를 이용하여 색상을 가까울수록 흰색에 가깝도록 레벨링하는 Distance-based Gray Scale Leveling 또한 적용했습니다.<br>
-                       맵의 사이즈를 10x10 이하로 줄이기 위해 sub grid로 나누어 각 sub grid 값들의 합을 정규화하여 10x10 맵에 맵핑시켜 압축시킵니다. 에이전트는 전방의 가장 가까운 곳을 위주로 움직이다가 근방이 모두 막혔을 경우 바깥쪽으로 나아가게 되며, 압축된 맵을 통해 장애물이 적은 방향을 향해 나아가게 됩니다. 다양한 Grid map size 및 Sub-grid size로 실험을 한 결과, Training time은 정확도의 감소 없이 기존 DQN보다 약 74% 빨라졌습니다.
-                    </p>
-                    <br>
-                    <h3>수상 내역</h3>
-                    <p class="content">
-                    2012 임베디드 소프트웨어 경진대회 우수상 (NIPA 원장상)<br>
-                    스마트 센싱 세상 만들기: 스마트폰 USB 센서 Plug&Play를 위한 통합 App 구조<br>
-                    </p>
-                    <br>
-                    <h3>경력 사항</h3>
-                    <p class="content">
-                    KOTRA 해외인턴<br>Samsung R&D Institute India - Bangalore Pvt. Ltd. (SRI-B)<br>
-                    Media Services and Solutions Group Department<br>
-                    약 3개월 인턴 근무(2013.12-2014.02)<br>
-                    </p>
-                    <br>
-                    
-          </div>          
+              <p class="lead" style="font-family: 맑은 고딕;">
+                <h5>1991년 12월 22일 출생</h5><br><br>
+              </p>
+
+              <h3>학력</h3>
+              <p class="content">
+              한남대학교 정보통신공학과 졸업 (2010.02-2016.02)<br>
+              연세대학교 일반대학원 컴퓨터과학과 슈퍼컴퓨팅 연구실 졸업 (2016.02-2018.02)<br>
+              </p><br>
+
+              <h3>수상 내역</h3>
+              <p class="content">
+              2012 임베디드 소프트웨어 경진대회 우수상 (NIPA 원장상)<br>
+              스마트 센싱 세상 만들기: 스마트폰 USB 센서 Plug&Play를 위한 통합 App 구조<br>
+              </p><br>
+
+              <h3>경력 사항</h3>
+              <p class="content">
+              KOTRA 해외인턴<br>Samsung R&D Institute India - Bangalore Pvt. Ltd. (SRI-B)<br>
+              Media Services and Solutions Group Department<br>
+              약 3개월 인턴 근무(2013.12-2014.02)<br>
+              </p><br>
+            </p>
+          </div>
         </div>
         <!-- <div class="text-center mt-4">
           <a class="btn btn-xl btn-outline-light" href="#">
@@ -249,8 +241,28 @@
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
-        <div class="row">          
-          <div class="col-md-4 offset-md-4">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0 offset-md-2">
+            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/hjvshim">
+                  <i class="fab fa-git"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/HJVeronica">
+                  <i class="fab fa-git"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://hj_veronica.blog.me">
+                  <i class="fab fa-blogger-b"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
             <h4 class="text-uppercase mb-4">MOTO</h4>
             <p class="lead mb-0">
               Wheresoever you go,<br>go with all your heart and <b>ENJOY</b> it.<br><br>
@@ -317,7 +329,18 @@
               <h2 class="text-secondary text-uppercase mb-0">YouTube-like<br>동영상 스트리밍 웹페이지 제작</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/srib_slides.gif" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">
+                본 프로젝트는 Spring Framework와 MongoDB를 이용한 YouTube와 같은 동영상 스트리밍 웹페이지 설계 및 개발 프로젝트입니다.
+                Samsung R&D Institute India - Bangalore (SRI-B)에서 인턴으로 근무할 당시에 인턴 프로젝트로 현지인 인턴들과 함께 진행하였습니다.
+                저의 담당 업무는 UI와 Database 연동 위주의 업무였고, 다른 업무를 담당하는 팀원들과 SVN으로 코드를 공유하고 버전 관리 하였습니다.
+                UI는 일부 Bootstrap을 사용하였습니다.<br>
+              </p>
+              <ul class="list-inline item-details">
+                <li> Period:
+                  <strong>2013.12 ~ 2014.02</strong>
+                </li>
+              </ul>
+              <br><br>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -339,7 +362,22 @@
               <h2 class="text-secondary text-uppercase mb-0">Drag&Drop 방식<br>교육용 IoT SW개발 플랫폼</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/iot_slides.gif" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">
+                본 프로젝트는 연세대학교 슈퍼컴퓨팅 연구실에서 석사 과정 재학 중에 참여했던 과제로, 소스레벨 컴파일 없이 SW개발이 가능한 Drag&Drop방식의 플랫폼을 설계 및 구현하는 프로젝트입니다.
+                아두이노, 라즈베리 파이와 각종 센서들을 사용하였고, 웹 페이지의 UI는 Bootstrap을 사용하였으며, Database는 MySQL을 사용하였습니다.
+                <br>
+                IoT 디바이스 모듈과 센서 모듈을 웹 페이지에서 블록화하여 사용자가 블록들을 Drag&Drop 하여 각각의 센서에 조건을 부여하고 빌드합니다. 이를 통해 사용자가 직접 IoT 기기의 이벤트를 구현 및 커스터마이징 할 수 있으며, IT 관련 지식이 없는 일반인들도 쉽게 사용할 수 있습니다.
+                <br>
+              </p>
+              <ul class="list-inline item-details">
+                <li> GitHub Link:
+                  <a href="https://goo.gl/7Lif1p"><strong>https://goo.gl/7Lif1p</strong></a>
+                </li>
+                <li> Period:
+                  <strong>2016.07 ~ 2016.11</strong>
+                </li>
+              </ul>
+              <br><br>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -350,7 +388,7 @@
     </div>
 
     <!-- Portfolio Modal 4 -->
-    <!-- <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -358,10 +396,19 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">석사 학위 졸업 논문</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/thesis_slides.gif" alt="">
+              <p class="mb-5">
+                <h4><b>[ 논문 제목 ]</b></h4><br>Obstacle Avoidance using Density and Distance Aware Compressed Grid Map through Deep Q-Network<br>
+                Deep Q-Network를 이용한 장애물 밀도 및 거리 인식 압축 그리드 맵 기반 장애물 회피
+                <br><br><br>
+                <h4><b>[ 논문 요약 ]</b></h4><br>
+                 인공지능 기반의 장애물 회피에 관한 연구에서 주로 사용되는 강화학습 모델인 Deep-Q-Network(DQN)는 실시간으로 에이전트가 보는 Scene을 처리하기 때문에 학습 시간이 매우 길어진다는 문제가 있습니다. 이 점에 착안하여 본 논문에서는 Input으로 이용되는 이미지를 sub grid로 나누어 더 작은 이미지로 압축시켜 학습 시간을 줄이면서 정확도를 유지하는 Obstacle Density-aware Compressed Grid Map을 제안합니다.<br>
+                 이는 처음 DQN에서 받는 에이전트가 바라보는 뷰의 이미지들을 그레이스케일로 변환하여 일정 크기로 그리드화하여 장애물을 식별해 맵으로 변환시킵니다. 이 때, 에이전트의 위치에서부터 장애물까지의 거리차를 이용하여 색상을 가까울수록 흰색에 가깝도록 레벨링하는 Distance-based Gray Scale Leveling 또한 적용했습니다.<br>
+                 맵의 사이즈를 10x10 이하로 줄이기 위해 sub grid로 나누어 각 sub grid 값들의 합을 정규화하여 10x10 맵에 맵핑시켜 압축시킵니다. 에이전트는 전방의 가장 가까운 곳을 위주로 움직이다가 근방이 모두 막혔을 경우 바깥쪽으로 나아가게 되며, 압축된 맵을 통해 장애물이 적은 방향을 향해 나아가게 됩니다. 다양한 Grid map size 및 Sub-grid size로 실험을 한 결과, Training time은 정확도의 감소 없이 기존 DQN보다 약 74% 빨라졌습니다.
+                 <br><br>
+              </p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -370,7 +417,7 @@
         </div>
       </div>
     </div>
- -->
+
     <!-- Portfolio Modal 5 -->
     <!-- <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
       <div class="portfolio-modal-dialog bg-white">
