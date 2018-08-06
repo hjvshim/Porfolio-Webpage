@@ -1,3 +1,4 @@
 node_modules
 .atom-live-server.json
 .vscode/settings.json
+.ftpconfig
